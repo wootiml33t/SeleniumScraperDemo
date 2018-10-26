@@ -1,5 +1,5 @@
 from selenium import webdriver
-#browser = webdriver.Chrome("C:/Users/zach/Downloads/chromedriver.exe")
+#browser = webdriver.Chrome("path/to/chrome/driver")
 profile = webdriver.FirefoxProfile()
 browser = webdriver.Firefox(firefox_profile=profile)
 browser.get("https://www.akc.org/dog-breeds/")
